@@ -6,14 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href=
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="form1.css">
+    <link rel="stylesheet" href="Hospital form 1.css">
     
     <style>
         .icon {
             margin-top: 0.62%;
             margin-left: 1%;
             color: grey;
-            position: relative;
             background-color: white;
         }
     </style>
@@ -29,9 +28,11 @@
         <div class="form_body">
             <div class = "Name">
                 <section class = "Name_desc">Full Name <div class = "mandatory">*</div> </section>
-                <div> 
-                    <i class="fa fa-user icon"></i>
-                    <input type="text" class = "input_box_type_1">
+                <div style="display: flex;"> 
+                    <div class = "icon_box">
+                        <i class="fa fa-user icon"></i>
+                        <input type="text" class = "input_container">
+                    </div>
                     <input type="text" class = "input_box_type_1">
                 </div>
                 <div class = "Name_type">
@@ -42,15 +43,17 @@
         
             <div class = "Name">
                 <section class = "Name_desc">Age <div class = "mandatory">*</div> </section>
-                <i class = "fa fa-calendar icon"></i>
-                <input type="number" class = "input_box_type_2">
+                <div class = "icon_box2">
+                    <i class = "fa fa-calendar icon"></i>
+                    <input type="number" class = "input_box_type_2">
+                </div>
             </div>
         
             <br><br><br>
 
             <div class="Name">
                 <section class = "Name_desc">What is bothering you ? <div class = "mandatory">*</div> </section>
-                <input type="text" class = "input_box_type_3">
+                <textarea class="input_box_type_3"></textarea>
             </div>
 
             <br><br><br>
@@ -69,7 +72,7 @@
         
             <div class = "Name">
                 <section class = "Name_desc">Who referred you to us?</section>
-                <input type="text" class = "input_box_type_3">
+                <textarea class="input_box_type_3"></textarea>
             </div>
 
             <br><br><br>
