@@ -52,11 +52,11 @@ form {
 
 .Name_type {
     display: flex;
-    font-size: 80%;
+    font-size: 77%;
     gap: 38%;
     padding-top: 1.5%;
     padding-bottom: 7%;
-    margin-left: 3%;
+    margin-left: 0.7%;
     color: rgb(28, 89, 139);
 }
 
@@ -74,18 +74,19 @@ form {
 }
 
 .input_box_type_1 {
-    width: 38.5%;
-    height: 30px;
+    width: 40.5%;
+    height: 28px;
     border: 1px solid rgb(28, 89, 139);
     border-radius: 8px;
     font-size: 90%;
+    margin-left: 1%;
     resize: none;
 }
 
 .input_box_type_2 {
-    width: 77%;
+    width: 96.16%;
     height: 30px;
-    border: 1px solid rgb(28, 89, 139);
+    border: none;
     border-radius: 8px;
     font-size: 90%;
 }
@@ -95,6 +96,7 @@ form {
     height: 100px;
     border: 1px solid rgb(28, 89, 139);
     border-radius: 8px;
+    padding: 1%;
     font-size: 90%;
 }
 
@@ -126,4 +128,29 @@ form {
 
 .submit {
     text-align: center;
+}
+
+.input_container {
+    width: 94.2%;
+    height: 90%;
+    margin: 0px;
+    border: none;
+    border-radius: 8px;
+    font-size: 90%;
+    resize: none;
+}
+
+.icon_box {
+    width: 40.5%;
+    height: 30px;
+    border: 1px solid rgb(28, 89, 139);
+    border-radius: 8px;
+    font-size: 90%;
+    resize: none;
+}
+
+.icon_box2 {
+    border: 1px solid rgb(28, 89, 139);
+    border-radius: 8px;
+    width: 82%;
 }
