@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Priority Demo</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS: Targets the div */
+        .box {
+            background-color: red;
+            color: black;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid blue;
+        }
+
+        /* Internal CSS: Another styling */
+        #unique {
+            background-color: lightgreen;
+            color: darkgreen;
+        }
+    </style>
+
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="Ex12.css">
+</head>
+<body>
+
+    <h1>CSS Priority Demonstration</h1>
+
+    <!-- Div with Inline CSS -->
+    <div class="box" style="background-color: yellow; color: red;">
+        This div uses Inline CSS. (Highest Priority)
+    </div>
+
+    <!-- Div targeted by Internal and External CSS -->
+    <div class="box" id="unique">
+        This div is styled by Internal and External CSS.
+    </div>
+
+    <!-- Another div to see External CSS impact -->
+    <div class="box">
+        This div is styled by Internal and External CSS.
+    </div>
+
+</body>
+</html>
