@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(208, 227, 234, 0.769);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    width: 100vw;
+    height: 100vh;
+}
+
+.form_body {
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px 10px 40px 10px;
+}
+
+.Heading_style_1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.Form_Name {
+    text-align: center;
+    background-color: rgb(0, 0, 172);
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50px;
+    padding: 10px 10px 40px 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Name {
+    margin: 20px 20px 20px 15%;
+}
+
+.Name_type {
+    display: flex;
+    font-size: 80%;
+    gap: 38%;
+    padding-top: 1.5%;
+    padding-bottom: 7%;
+    margin-left: 3%;
+    color: rgb(28, 89, 139);
+}
+
+.Name_desc {
+    display: flex;
+    font-size: 100%;
+    padding-bottom: 2%;
+    margin-left : 0.3%;
+    color: rgb(28, 89, 139);
+}
+
+.mandatory {
+    color: red;
+    margin-left: 5px;
+}
+
+.input_box_type_1 {
+    width: 38.5%;
+    height: 30px;
+    border: 1px solid rgb(28, 89, 139);
+    border-radius: 8px;
+    font-size: 90%;
+    resize: none;
+}
+
+.input_box_type_2 {
+    width: 77%;
+    height: 30px;
+    border: 1px solid rgb(28, 89, 139);
+    border-radius: 8px;
+    font-size: 90%;
+}
+
+.input_box_type_3 {
+    width: 80%;
+    height: 100px;
+    border: 1px solid rgb(28, 89, 139);
+    border-radius: 8px;
+    font-size: 90%;
+}
+
+.input_box_type_4 {
+    width: 15%;
+    height: 55px;
+    border: 1px solid rgb(28, 89, 139);
+    background-color: rgb(0, 0, 172);
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+    font-size: 100%;
+}
+
+.conatiner1 {
+    display: flex;
+    gap : 2%;
+    margin-left:0.5%;
+    margin-top: 0.5%;
+}
+
+.conatiner2 {
+    display: flex;
+    gap : 2.53%;
+    margin-left:0.5%;
+    margin-top: 0.5%;
+}
+
+.submit {
+    text-align: center;
+}

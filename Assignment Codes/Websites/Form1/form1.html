@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="form1.css">
+    
+    <style>
+        .icon {
+            margin-top: 0.62%;
+            margin-left: 1%;
+            color: grey;
+            position: relative;
+            background-color: white;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form>
+        <div class = "Form_Name">
+            <h1 class = "Heading_style_1">Patient Admission</h1>
+        </div>
+    
+        <div class="form_body">
+            <div class = "Name">
+                <section class = "Name_desc">Full Name <div class = "mandatory">*</div> </section>
+                <div> 
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" class = "input_box_type_1">
+                    <input type="text" class = "input_box_type_1">
+                </div>
+                <div class = "Name_type">
+                    <section>First</section>
+                    <section>Last</section>
+                </div>
+            </div>
+        
+            <div class = "Name">
+                <section class = "Name_desc">Age <div class = "mandatory">*</div> </section>
+                <i class = "fa fa-calendar icon"></i>
+                <input type="number" class = "input_box_type_2">
+            </div>
+        
+            <br><br><br>
+
+            <div class="Name">
+                <section class = "Name_desc">What is bothering you ? <div class = "mandatory">*</div> </section>
+                <input type="text" class = "input_box_type_3">
+            </div>
+
+            <br><br><br>
+
+            <div class = "Name">
+                <section class = "Name_desc">Have you consulted any other doctor ? <div class = "mandatory">*</div> </section>
+                <label class = "conatiner1"> <span class = "Name_desc">Yes</span>
+                    <input type="radio" name = "radio">
+                </label>
+                <label class = "conatiner2"> <span class = "Name_desc">No</span>
+                    <input type="radio" name = "radio">
+                </label>
+            </div>
+
+            <br><br><br>
+        
+            <div class = "Name">
+                <section class = "Name_desc">Who referred you to us?</section>
+                <input type="text" class = "input_box_type_3">
+            </div>
+
+            <br><br><br>
+
+            <div class = "submit">
+                <input type="submit" value="Submit" class = "input_box_type_4">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
