@@ -53,7 +53,7 @@ form {
 .Name_type {
     display: flex;
     font-size: 77%;
-    gap: 38%;
+    gap: 39.5%;
     padding-top: 1.5%;
     padding-bottom: 7%;
     margin-left: 0.7%;
@@ -61,7 +61,7 @@ form {
 }
 
 .Name_desc {
-    display: flex;
+    display: inline-block;
     font-size: 100%;
     padding-bottom: 2%;
     margin-left : 0.3%;
@@ -69,6 +69,7 @@ form {
 }
 
 .mandatory {
+    display: inline-block;
     color: red;
     margin-left: 5px;
 }
@@ -153,4 +154,13 @@ form {
     border: 1px solid rgb(28, 89, 139);
     border-radius: 8px;
     width: 82%;
+}
+
+.radio_2 {
+    display: inline-block;
+    font-size: 100%;
+    padding-bottom: 2%;
+    margin-left : 0.3%;
+    padding-right: 5px;
+    color: rgb(28, 89, 139);
 }
