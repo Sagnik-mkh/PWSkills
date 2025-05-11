@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href=
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="form1.css">
-    
+    <meta name="description" content="Fill the form for patient admission">
+    <title>Patient Admission Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Hospital form 1.css">
     <style>
         .icon {
             margin-top: 0.62%;
@@ -16,69 +15,62 @@
             background-color: white;
         }
     </style>
-
-
 </head>
 <body>
     <form>
-        <div class = "Form_Name">
-            <h1 class = "Heading_style_1">Patient Admission</h1>
+        <div class="Form_Name">
+            <h1 class="Heading_style_1">Patient Admission</h1>
         </div>
-    
         <div class="form_body">
-            <div class = "Name">
-                <section class = "Name_desc">Full Name <div class = "mandatory">*</div> </section>
-                <div style="display: flex;"> 
-                    <div class = "icon_box">
-                        <i class="fa fa-user icon"></i>
-                        <input type="text" class = "input_container">
-                    </div>
-                    <input type="text" class = "input_box_type_1">
-                </div>
-                <div class = "Name_type">
-                    <section>First</section>
-                    <section>Last</section>
-                </div>
-            </div>
-        
-            <div class = "Name">
-                <section class = "Name_desc">Age <div class = "mandatory">*</div> </section>
-                <div class = "icon_box2">
-                    <i class = "fa fa-calendar icon"></i>
-                    <input type="number" class = "input_box_type_2">
-                </div>
-            </div>
-        
-            <br><br><br>
-
             <div class="Name">
-                <section class = "Name_desc">What is bothering you ? <div class = "mandatory">*</div> </section>
-                <textarea class="input_box_type_3"></textarea>
+                <section class="Name_desc">Full Name <div class="mandatory">*</div> </section>
+                <div style="display: flex;">
+                    <div class="icon_box">
+                        <i class="fa fa-user icon"></i>
+                        <input id="First_Name" type="text" class="input_container" required>
+                    </div>
+                    <input id="Last_name" type="text" class="input_box_type_1" required>
+                </div>
+                <div class="Name_type">
+                    <label for="First_Name">First</label>
+                    <label for="Last_name">Last</label>
+                </div>
             </div>
-
-            <br><br><br>
-
-            <div class = "Name">
-                <section class = "Name_desc">Have you consulted any other doctor ? <div class = "mandatory">*</div> </section>
-                <label class = "conatiner1"> <span class = "Name_desc">Yes</span>
-                    <input type="radio" name = "radio">
-                </label>
-                <label class = "conatiner2"> <span class = "Name_desc">No</span>
-                    <input type="radio" name = "radio">
-                </label>
+            <div class="Name">
+                <label for="Age" class="Name_desc">Age</label>
+                <section class="mandatory">*</section>
+                <div class="icon_box2">
+                    <i class="fa fa-calendar icon"></i>
+                    <input id="Age" type="number" class="input_box_type_2" required>
+                </div>
             </div>
-
             <br><br><br>
-        
-            <div class = "Name">
-                <section class = "Name_desc">Who referred you to us?</section>
-                <textarea class="input_box_type_3"></textarea>
+            <div class="Name">
+                <label for="issue" class="Name_desc">What is bothering you ?</label>
+                <section class="mandatory">*</section>
+                <textarea id="issue" class="input_box_type_3" required></textarea>
             </div>
-
             <br><br><br>
-
-            <div class = "submit">
-                <input type="submit" value="Submit" class = "input_box_type_4">
+            <div class="Name">
+                <section class="Name_desc">Have you consulted any other doctor ?</section>
+                <section class="mandatory">*</section>
+                <div>
+                    <label for="radio_1" class="Name_desc">Yes</label>
+                    <input id="radio_1" type="radio" name="radio" required>
+                </div>
+                <div>
+                    <label for="radio_2" class="radio_2">No</label>
+                    <input id="radio_2" type="radio" name="radio" required>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="Name">
+                <label for="comments" class="Name_desc">Who referred you to us?</label>
+                <textarea id="comments" class="input_box_type_3"></textarea>
+            </div>
+            <br><br><br>
+            <div class="submit">
+                <button type="submit" class="input_box_type_4">Submit</button>
             </div>
         </div>
     </form>
