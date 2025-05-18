@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar {
+    list-style-type: none;
+    background-color: dodgerblue;
+}
+
+.nav_items {
+    font-family: "Poppins", sans-serif;
+    text-decoration-line: underline;
+    color: white;
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid dodgerblue;
+}
+
+.item1:hover {
+    color: black;
+    background-color: beige;
+    border: 2px solid black; 
+    border-style: dashed;
+}
+
+.item2:hover {
+    color: black;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    border-style: dotted;
+}
+
+.item3:hover {
+    color: black;
+    background-color: violet;
+    border: 2px solid black;
+    border-style: ridge;
+}
+
+.item4:hover {
+    color: black;
+    background-color: tomato;
+    border: 2px solid black;
+    border-style: inset;
+}
+
+.item5:hover {
+    color: black;
+    background-color: slateblue;
+    border: 2px solid black;
+    border-style: outset;
+}
