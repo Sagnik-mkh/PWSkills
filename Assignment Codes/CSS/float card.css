@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    height: auto;
+    padding: 0.5%;
+    width: 71vw;
+    min-width: 343.04px;
+    margin: 2%;
+    border: 1px solid black;
+}
+
+.Inner {
+    overflow: hidden;
+    max-width: 100%;
+    width: auto;
+    height: 83%;
+    padding: 20px;
+    background-color: beige;
+}
+
+img {
+    float: right;
+}
