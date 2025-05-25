@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="z index">
+    <title>z index</title>
+    <style>
+        .container {
+            display: inline;
+        }
+
+        .box1 {
+            width: 400px;
+            height:400px;
+            background-color: tomato;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: dodgerblue;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>
