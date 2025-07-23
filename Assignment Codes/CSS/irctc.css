@@ -1,0 +1,379 @@
+:root {
+    --textClr: #333333;
+    --bgOrg: #FB792B;
+    --greyBorder: #33333333;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 168.31px;
+    height: 81.11px;
+    top: 50.69px;
+    left: 101.39px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 321.81px;
+    height: 68.88px;
+    top: 63.69px;
+    left: 398.46px;
+    justify-content: space-between;
+}
+
+.actions {
+    display: flex;
+    gap: 25.35px;
+}
+
+.menuText {
+    color: var(--textClr);
+    font-weight: 500;
+    font-size: 15.21px;
+    line-height: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    border: none;
+    border-radius: 5.07px;
+    padding: 10.14px 15.21px 10.14px 15.21px;
+}
+
+.login {
+    color: white;
+    background-color: var(--bgOrg);
+}
+
+.register {
+    border: 1.01px solid var(--greyBorder);
+    background-color: #FFFFFF;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    width: 438px;
+    height: 118.08px;
+    top: 223.06px;
+    left: 101.39px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48.67px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.adj {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subHead {
+    font-weight: 500;
+    font-size: 32.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.sh1 {
+    color: green;
+}
+
+.sh2 {
+    color: var(--bgOrg);
+}
+
+.sh3 {
+    color: navy;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 603.22px;
+    height: 44.61px;
+    top: 422.79px;
+    left: 101.39px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tbuttons {
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 44.61px;
+    border-radius: 5.07px;
+    gap: 10.14px;
+    padding: 10.14px 15.21px 10.14px 15.21px;
+}
+
+#bt1 {
+    background-color: navy;
+    color: white;
+    font-weight: 700;
+    font-size: 18.25px;
+    line-height: 100%;
+}
+
+#bt2 {
+    border: 2px solid var(--greyBorder);
+    background-color: white;
+    font-weight: 700;
+    font-size: 18.25px;
+    line-height: 100%;
+}
+
+#bt3 {
+    border: 2px solid var(--greyBorder);
+    background-color: white;
+    font-weight: 700;
+    font-size: 18.25px;
+    line-height: 100%;
+}
+
+.traiInfo {
+    border: 2px solid var(--greyBorder);
+    position: fixed;
+    width: 618.47px;
+    height: 116.6px;
+    top: 518.1px;
+    left: 101.39px;
+}
+
+.fromTrain {
+    position: fixed;
+    top: 563.72px;
+    left: 121.67px;
+}
+
+.fromToimg {
+    position: fixed;
+    top: 552.57px;
+    left: 360.29px;
+    border-radius: 50.69px;
+}
+
+.toTrain {
+    position: fixed;
+    top: 559.67px;
+    left: 455.24px;
+}
+
+.dest {
+    position: fixed;
+    top: 560.68px;
+    left: 503.9px;
+    font-weight: 700;
+    font-size: 25.35px;
+    line-height: 100%;
+}
+
+.src {
+    position: fixed;
+    top: 560.68px;
+    left: 164.25px;
+    font-weight: 700;
+    font-size: 25.35px;
+    line-height: 100%;
+}
+
+.destSta {
+    position: fixed;
+    top: 596.17px;
+    left: 503.9px;
+    opacity: 0.8;
+    font-size: 15.21px;
+    line-height: 100%;
+}
+
+.srcSta {
+    position: fixed;
+    top: 596.17px;
+    left: 164.25px;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 15.21px;
+    line-height: 100%;
+}
+
+.expandText {
+    position: fixed;
+    top: 538.37px;
+    left: 503.9px;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 15.21px;
+    line-height: 100%;
+}
+
+.expandText2 {
+    position: fixed;
+    top: 538.37px;
+    left: 164.25px;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 15.21px;
+    line-height: 100%;
+}
+
+.dateInfo {
+    border: 2px solid var(--greyBorder);
+    position: fixed;
+    width: 618.47px;
+    height: 116.6px;
+    top: 654.97px;
+    left: 101.39px;
+}
+
+.svg1 {
+    position: fixed;
+    top: 693.82px;
+    left: 526.22px;
+}
+
+.svg2 {
+    position: fixed;
+    top: 694.87px;
+    left: 323.44px;
+}
+
+.svg3 {
+    position: fixed;
+    top: 694.73px;
+    left: 120.67px;
+}
+
+.stype {
+    position: fixed;
+    top: 697.56px;
+    left: 575.89px;
+    font-weight: 700;
+    font-size: 25.35px;
+    line-height: 100%;
+}
+
+.class {
+    position: fixed;
+    top: 697.56px;
+    left: 377.17px;
+    font-weight: 700;
+    font-size: 25.35px;
+    line-height: 100%;
+}
+
+.date {
+    position: fixed;
+    top: 697.56px;
+    left: 164.25px;
+    font-weight: 700;
+    font-size: 25.35px;
+    line-height: 100%;
+}
+
+.subtype {
+    position: fixed;
+    top: 733.04px;
+    left: 575.89px;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 15.21px;
+    line-height: 100%;
+}
+
+.subtype2 {
+    left: 377.17px;
+}
+
+.day {
+    left: 164.25px;
+}
+
+.expandstype {
+    top: 675.25px;
+    left: 575.89px;
+}
+
+.expandClass {
+    top: 675.25px;
+    left: 377.17px;
+}
+
+.expandDate {
+    top: 675.25px;
+    left: 164.25px;
+}
+
+.expandimg {
+    position: fixed;
+    top: 675.25px;
+    left: 648.89px;
+}
+
+.expandimg2 {
+    left: 416.71px;
+}
+
+.expandimg3 {
+    left: 198.72px;
+}
+
+.expandsv1 {
+    position: fixed;
+    top: 537.36px;
+    left: 201.76px;
+}
+
+.expandsv2 {
+    left: 522.15px;
+}
+
+.Submit {
+    position: fixed;
+    width: 618.47px;
+    height: 81.11px;
+    top: 828.56px;
+    left: 101.39px;
+    font-weight: 900;
+    font-size: 25.35px;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    background-color: #01BB0A;
+    border: none;
+    border-radius: 10.14px;
+}
+
+.arrow {
+    position: fixed;
+    top: 854.9px;
+    left: 485.65px;
+}
+
+.homePagepic {
+    position: relative;
+    width: 696px;
+    height: 1100px;
+    left: 764px;
+}
