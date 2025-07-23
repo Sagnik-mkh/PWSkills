@@ -1,0 +1,37 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 33vh 33vh 33vh;
+    grid-template-areas: 'img1 img1 img2'
+                        'img3 img4 img5'
+                        'img3 img6 img5';
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.box1 {
+    grid-area: img1;
+}
+
+.box2 {
+    grid-area: img2;
+}
+
+.box3 {
+    grid-area: img3;
+}
+
+.box4 {
+    grid-area: img4;
+}
+
+.box5 {
+    grid-area: img5;
+}
+
+.box6 {
+    grid-area: img6;
+}
