@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+
+    .navbar {
+        padding: 0 1rem;
+    }
+    
+    .navbar .nav-list {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-items {
+            padding: 0.5rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-container {
+        background-color: lightslategray;
+
+        .navbar .nav-list {
+            flex-direction: column !important;
+            justify-content: center !important;
+        }
+    }
+}
