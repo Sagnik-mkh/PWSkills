@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97344126bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login Screen</title>
+    <meta name="description" content="Login Screen">
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-white font-normal text-base text-black box-border m-0 p-0">
+
+    <!-- login -->
+    <div class="md:px-16 px-4 py-6 lg:py-0 grid lg:grid-flow-col container mx-auto items-center h-[100vh]">
+        <div class="py-6 px-6 sm:px-12 inline-flex flex-col items-center justify-center">
+            <div class="text-center">
+                <h1 class="text-2xl mb-2">
+                    Login
+                </h1>
+                <h5 class="text-xs p-2 text-gray-400 mb-4">
+                    Enter your credentials to access your account
+                </h5>
+            </div>
+            <button type="button" class="border-gray-300 inline-block w-full mb-8 border px-8 py-3 font-light text-sm">
+                <i
+                    class="fa fa-brands fa-google text-transparent bg-clip-text bg-gradient-to-b from-red-500 via-green-500 to-blue-500 mr-2"></i>
+                Login with Google
+            </button>
+            <hr class="font-bold w-full inline-block text-gray-300">
+            <div class="mb-4 relative -top-3.5 bg-white px-3">
+                or
+            </div>
+            <div class="block w-full mb-4">
+                <div class="mb-1 text-sm">
+                    Email Address
+                </div>
+                <div class="block w-full">
+                    <input type="text" placeholder="email@gmail.com"
+                        class="border border-gray-300 inline-block w-full px-2 py-2 text-sm text-gray-400 rounded-xs">
+                </div>
+            </div>
+            <div class="block w-full mb-4">
+                <div class="mb-1 text-sm">
+                    Password
+                </div>
+                <div class="block w-full">
+                    <input type="text" placeholder="Password"
+                        class="border border-gray-300 inline-block w-full px-2 py-2 text-sm text-gray-400 rounded-xs">
+                </div>
+            </div>
+            <button class="btn btn-info mb-2 text-white inline-block w-full" type="button">Login</button>
+            <div>
+                <span class="text-xs text-gray-400 p-0.5">Don't have an account?</span>
+                <span class="text-xs font-medium whitespace-nowrap">Register here</span>
+            </div>
+        </div>
+        <img src="./assets/finger-pointing-img.jpg" alt="img"
+            class="hidden lg:block object-cover object-[70%] h-full w-full">
+    </div>
+</body>
+
+</html>
