@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+
+    .boxes {
+        display: flex;
+
+        .side-box {
+            flex-basis: 5%;
+            background: rgb(45, 45, 45);
+            color: white;
+            text-align: center;
+        }
+
+        .middle-boxes {
+            flex-basis: 90%;
+            text-align: center;
+            aspect-ratio: 2/1;
+
+            .box2 {
+                background: tomato;
+                height: 50%;
+            }
+
+            .box3 {
+                background: dodgerblue;
+                height: 50%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .box-container {
+        .boxes {
+            flex-direction: column !important;
+            height: 90vh;
+
+            .middle-boxes {
+                flex-basis: 40%;
+                margin-bottom: 50vh;
+            }
+        }
+    }
+}
