@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+        .box {
+            width: minmax(200px, 100%);
+            aspect-ratio: 1/1;
+            margin: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box1 {
+            background: dodgerblue;
+        }
+
+        .box2 {
+            background: tomato;
+        }
+
+        .box3 {
+            background: lawngreen;
+        }
+
+        .box4 {
+            background: goldenrod;
+        }
+    }
+}
