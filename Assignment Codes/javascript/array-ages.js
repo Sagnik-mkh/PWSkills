@@ -9,7 +9,7 @@ ages.sort();
 let obj = {
     min : ages[0],
     max: ages[ages.length - 1],
-    median: arrayMedian(ages),
+    median: ((arr)),
     average: ages.reduce((total, value) => {
         return total + value;
     }) / ages.length
