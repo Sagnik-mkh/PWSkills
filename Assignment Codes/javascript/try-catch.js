@@ -8,11 +8,9 @@
 function square(num) {
     try {
         const myNumber = Number(num);
-
         if (isNaN(myNumber)) {
             throw new Error("Invalid Input");
         }
-
         return myNumber ** 2;
     } catch (error) {
         return error.message;

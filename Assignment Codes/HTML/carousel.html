@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Carousel</title>
+    <link rel="stylesheet" href="../CSS/carousel.css">
+</head>
+
+<body>
+    <div id="carousel-container">
+        <div id="carousel-items-container">
+            <div class="btn-container">
+                <button data-prev-btn type="button" class="carousel-button">&lt;</button>
+            </div>
+            <ul data-carousel-list id="carousel-items-list">
+                <li class="carousel-item" data-active="inactive">
+                    <img src="https://static.dc.com/dc/files/default_images/Char_Thumb_AlanScott_5fb82459209669.21120396.jpg?w=1200" class="card" alt="green lantern">
+                </li>
+                <li class="carousel-item" data-active="active">
+                    <img src="https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/9537831-the-flash-18-oto-segovia.jpg" alt="flash" class="card">
+                </li>
+                <li class="carousel-item" data-active="inactive">
+                    <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/doctor-fate.jpg" alt="dr.fate" class="card">
+                </li>
+            </ul>
+            <div class="btn-container">
+                <button data-next-btn type="button" class="carousel-button">&gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../javascript/carousel.js"></script>
+</body>
+
+</html>
