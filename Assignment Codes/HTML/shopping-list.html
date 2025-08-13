@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/shopping-list.css">
+    <title>Shopping List</title>
+</head>
+
+<body>
+    <!-- Container holding the entire list and input UI -->
+    <div id="list-container">
+        <!-- Input area with label, text field, and submit button -->
+        <div id="input-container">
+            <label id="input-label" for="list-input">Name</label>
+            <input data-input-name id="list-input" type="text" placeholder="Enter items">
+            <button data-submit-btn id="input-btn" type="button">Submit</button>
+        </div>
+        <!-- Ordered list where new items will be appended dynamically -->
+        <ol id="list">
+        </ol>
+    </div>
+    <!-- Script linking the shopping list functionality -->
+    <script src="../javascript/shopping-list.js"></script>
+</body>
+
+</html>

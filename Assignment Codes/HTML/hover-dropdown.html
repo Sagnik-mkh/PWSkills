@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Dropdown</title>
+
+    <!-- Font Awesome icon library -->
+    <script src="https://kit.fontawesome.com/97344126bb.js" crossorigin="anonymous"></script>
+
+    <!-- External CSS for dropdown styles -->
+    <link rel="stylesheet" href="../CSS/hover-dropdown.css">
+</head>
+
+<body>
+    <div id="nav-container"> <!-- Container for the navigation bar -->
+        <nav id="nav-bar"> <!-- Main navigation bar -->
+
+            <!-- Button that toggles the dropdown menu (hamburger icon) -->
+            <button id="btn" type="button" aria-label="open-menu">
+                <i class="fa-solid fa-bars"></i> <!-- Font Awesome hamburger icon -->
+            </button>
+
+            <!-- Dropdown menu list -->
+            <!-- data-drop-down: indicates open/closed state -->
+            <!-- data-active: indicates active/inactive for styling -->
+            <ul id="menu-list" data-drop-down="closed" data-active="inactive">
+
+                <!-- Menu item: Home -->
+                <li class="menu-items">
+                    <p data-drop-down-item>Home</p> <!-- data-drop-down-item: for JS targeting -->
+                </li>
+
+                <!-- Menu item: Services (has a sub-menu) -->
+                <li class="menu-items">
+                    <p data-drop-down-item>Services</p>
+
+                    <!-- Sub-menu list -->
+                    <ul id="sub-menu-list">
+                        <li class="sub-menu-items">
+                            <p data-drop-down-item>sub-menu 1</p>
+                        </li>
+                        <li class="sub-menu-items">
+                            <p data-drop-down-item>sub-menu 1</p>
+                        </li>
+                        <li class="sub-menu-items">
+                            <p data-drop-down-item>sub-menu 1</p>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Menu item: Contacts -->
+                <li class="menu-items">
+                    <p data-drop-down-item>Contacts</p>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- External JavaScript for dropdown functionality -->
+    <script src="../javascript/hover-dropdown.js"></script>
+</body>
+
+</html>
